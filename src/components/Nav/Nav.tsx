@@ -55,7 +55,7 @@ const Nav = () => {
           width: `calc(max(${popoverWidth}px + 4rem, 600px))`,
         }}
         className={clsx(
-          "absolute ease-[cubic-bezier(0.39,0.57,0.56,1)] duration-300 top-12 z-50 bg-white rounded-lg shadow flex items-center justify-center overflow-hidden",
+          "absolute ease-[cubic-bezier(0.39,0.57,0.56,1)] duration-300 top-12 z-50 bg-white rounded-lg shadow flex justify-center overflow-hidden",
           isHovered !== null
             ? "transition-all"
             : "opacity-0 pointer-events-none"
